@@ -26,9 +26,9 @@ GoogleImageSearch.searchImage("cats")
     console.log(res); // This will return array of image URLs
 })
 
-Library currently returns an array of google image thumbnails.
-
 ```
+
+Library currently returns an array of google image thumbnails.
 
 # Issues
 Feel free to submit issues and enchantment requests
