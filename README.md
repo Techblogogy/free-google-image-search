@@ -1,6 +1,19 @@
 # Free Google Image Search
 Search for images with Google, without the use of Custom Search JSON/Atom API
 
+# Installation
+To install you can simply run the following command in you NodeJS project:
+
+```
+npm install free-google-image-search --save
+```
+
+or this one:
+
+```
+yarn add free-google-image-search
+```
+
 # Usage Example
 Library is really simple to use. All you need to do is call .searchImage function and pass in desired search query. Here's a simple example code:
 
