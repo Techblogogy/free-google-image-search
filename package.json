@@ -1,7 +1,7 @@
 {
   "name": "free-google-image-search",
   "version": "1.0.0",
-  "description": "Search for images with Google, without the use of limited API",
+  "description": "Search for images with Google, without the use of Custom Search JSON/Atom API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

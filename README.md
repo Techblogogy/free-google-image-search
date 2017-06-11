@@ -1,5 +1,5 @@
 # Free Google Image Search
-Search for images with Google, without the use of limited API
+Search for images with Google, without the use of Custom Search JSON/Atom API
 
 # Usage Example
 Library is really simple to use. All you need to do is call .searchImage function and pass in desired search query. Here's a simple example code:
@@ -12,6 +12,8 @@ GoogleImageSearch.searchImage("cats")
 .then((res) => {
     console.log(res); // This will return array of image URLs
 })
+
+Library currently returns an array of google image thumbnails.
 
 ```
 
