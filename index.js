@@ -16,7 +16,7 @@ export default class GoogleImageSearch {
         return new Promise( (resolve, reject) => {
 
             // Fetches Items from Google Image Search URL
-            fetch("https://crossorigin.me/https://www.google.com.ua/search?source=lnms&sa=X&gbv=1&tbm=isch&q="+query)
+            fetch("https://cors-anywhere.herokuapp.com/https://www.google.com.ua/search?source=lnms&sa=X&gbv=1&tbm=isch&q="+query)
             .then( res => res.text() )
             .then( res => {
 
